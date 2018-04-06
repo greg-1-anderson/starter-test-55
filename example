@@ -21,9 +21,9 @@ $commandClasses = [ \ExampleCli\ExampleCommands::class ];
 $statusCode = \Robo\Robo::run(
     $_SERVER['argv'],
     $commandClasses,
-    'ExampleProject',
+    'StarterTest55',
     '0.1.0-alpha1',
     $output,
-    'g-1-a/starter'
+    'greg-1-anderson/starter-test-55'
 );
 exit($statusCode);

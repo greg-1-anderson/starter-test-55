@@ -10,7 +10,7 @@ class ExampleCommands extends \Robo\Tasks
      */
     public function multiply($a, $b)
     {
-        $model = new \ExampleProject\Example($a);
+        $model = new \StarterTest55\Example($a);
         $result = $model->multiply($b);
 
         $this->io()->text("$a times $b is $result");
